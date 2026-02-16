@@ -43,3 +43,32 @@
     border-radius: 66px;
     box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
   }
+.footer {
+  width: 100%;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.footer .brand {
+  color: #00f7ff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+.footer .brand:hover {
+  color: #ff00c8;
+  text-shadow: 0 0 10px #ff00c8;
+}
