@@ -48,7 +48,7 @@
   color: #ffffff;
   text-align: bottom;
   padding: 20px 0;
-  position: relative;
+  position: flex;
   bottom: 0;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
