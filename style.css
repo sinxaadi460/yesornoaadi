@@ -76,3 +76,18 @@ footer {
     text-shadow: 0 0 20px #ff1493;
   }
 }
+
+#aadi {
+  font-weight: bold;
+  font-size: 20px;
+  background: linear-gradient(45deg, #ff1493, #ff69b4, #ff1493);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 3s infinite linear;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+      }
