@@ -57,3 +57,22 @@ footer {
   font-weight: 600;
   backdrop-filter: blur(5px);
 }
+
+#aadi {
+  color: #ff1493;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 0 0 5px #ff69b4,
+               0 0 10px #ff69b4,
+               0 0 20px #ff1493;
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #ff69b4;
+  }
+  to {
+    text-shadow: 0 0 20px #ff1493;
+  }
+}
